@@ -1,0 +1,123 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    font: normal 500 50px/59px Raleway;
+    padding: 7px;
+    padding-top: 7px;
+}
+
+.sec-hero{
+    
+    width: 100%;
+    height: 727px;
+    background-image:url(../img/bg-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.sec-info{
+    
+    width: 100%;
+    height: 348px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.sec-info p{
+    width: 475px;
+    
+}
+
+.sec-info img{
+    width: 399px;
+    height: 237px;
+}
+
+
+.sec-fotos{
+    width: 100%;
+    padding: 73px 0;
+    text-align: center;
+}
+
+.sec-fotos img{
+    width: 316px;
+    height: 202px;
+    margin: 0 8px;
+}
+
+.sec-caracteristicas{
+    width: 100%;
+    height: 348px;
+    background-color: #1E1A13;
+    text-align: center;
+}
+
+.sec-caracteristicas h2{
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 0px;
+    background-color: transparent;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.sec-caracteristicas .icons{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec-caracteristicas .icons .box{
+    display:inline-block;
+    background-color: transparent;
+    
+}
+
+.sec-caracteristicas .icons .box i p{
+    background-color: transparent;
+}
+
+.sec-caracteristicas .icons .box i{
+    padding-bottom: 16px;
+    background-color: transparent;
+}
+
+.sec-caracteristicas .icons .box p{
+    background-color: transparent;
+}
+
+
+
+footer{
+    background-color: #1E1A13;
+    font: normal normal 300 20px/24px Raleway;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 39px;
+
+}
+
+footer p{
+    background-color: transparent;
+    padding: 0px;
+    text-align: center;
+}
+
+footer p a{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
